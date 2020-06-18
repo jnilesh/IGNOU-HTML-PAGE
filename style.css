@@ -1,0 +1,113 @@
+body {
+  background: #dcdcdc none repeat scroll 0 0;
+    font-family: verdana;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.main{
+    background: #fff none repeat scroll 00;
+    border-radius: 4px;
+    margin: auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+header{
+    background: #ffffff none repeat scroll 00;
+    padding: 20px;
+}
+
+footer{
+    background: #000 none repeat scroll 00;
+    box-sizing: border-box;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    float: left;
+    width: 200px;
+}
+
+.right{
+    background: #bcbcbc none repeat scroll 0 0;
+    box-sizing: inherit;
+    float: right;
+    padding: 20px;
+    width: 600px;
+}
+.right>p{
+    text-align: justify;
+}
+
+.main-body{
+    background: #cccccc none repeat scroll 0 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.menu li a{
+    border-bottom: 1px solid #ececec;
+    box-sizing: border-box;
+    color: #1c10bf;
+    display: inline-block;
+    font-weight: 500;
+    padding: 12px 18px;
+    width: 100%;
+}
+
+header p{
+    color: #1c10bf;
+    float: right;
+    font-size: 15px;
+    margin: 6px 0 0 66px;
+}
+
+.menu li a.active, .menu li a:hover{
+    background: #1c10bf none repeat scroll 0 0;
+    color: #fff;
+}
+.heading-design-center-h3{
+    border-bottom: 1px solid #ccc;
+    color: #1c10bf;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    padding: 0 0 17px;
+}
+
+.schedule{
+    width: 100%;
+    text-align: left;    
+}
+
+.schedule thead{
+    background: #1c10bf none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.registration-form input,.registration-form select, .registration-form textarea{
+    background: #dcdcdc none repeat scroll 0 0;
+    border: medium none;
+    box-sizing: border-box;
+    font-family: verdana;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+.registration-form label{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 0 4px;
+}
+
+
+
